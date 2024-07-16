@@ -81,41 +81,11 @@
 
 
 
-
-
- <!-- CSS Link-->
-
-
     <script src="{{asset('js/toastify-js.js')}}"></script>
-        <script src="{{asset('js/flatpickr.js')}}"></script>
+    <script src="{{asset('js/flatpickr.js')}}"></script>
     <script src="{{asset('js/axios.min.js')}}"></script>
     <script src="{{asset('js/config.js')}}"></script>
     <script src="{{asset('js/bootstrap.bundle.js')}}"></script>
-
-    <!-- Include Summernote CSS start -->
-    <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-bs4.css" rel="stylesheet">
-    <link href="{{asset('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css')}}"
-        rel="stylesheet" />
-
-
-    <!-- Include Summernote js end -->
-    <link href="https://cdn.datatables.net/2.0.4/css/dataTables.dataTables.css" rel="stylesheet" />
-    <link href="https://cdn.datatables.net/buttons/3.0.2/css/buttons.dataTables.css" rel="stylesheet" />
-
-    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
-    <script src="https://cdn.datatables.net/2.0.4/js/dataTables.js"></script>
-    <script src="https://cdn.datatables.net/buttons/3.0.2/js/buttons.dataTables.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/vfs_fonts.js"></script>
-
-
-    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
-    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
-
-
-    <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-bs4.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </head>
 
@@ -1354,13 +1324,17 @@
 
 
 
-<script src="{{asset('back-end/assets/js/fontawesome.js')}}"></script>
+
+
+
+  <script src="{{asset('back-end/assets/js/fontawesome.js')}}"></script>
 <script src="{{asset('back-end/assets/js/bootstrap.bundle.min.js')}}"></script>
 <script src="{{asset('back-end/assets/js/simplebar.min.js')}}"></script>
 <script src="{{asset('back-end/assets/js/feather.min.js')}}"></script>
 <script src="{{asset('back-end/assets/js/full-screen-toggle.js')}}"></script>
 <script src="{{asset('back-end/assets/js/app.js')}}"></script>
 <script src="{{asset('back-end/assets/js/datatables.js')}}"></script>
+<script src="{{asset('back-end/assets/js/finance-popup-modal.js')}}"></script>
 
 <!-- Deathpicker js -->
 <script
@@ -1427,8 +1401,6 @@
             }
         }
     </script> --}}
-
-</script>
 <script>
     $('#ExpensesNote').summernote({
         placeholder: 'Content',
