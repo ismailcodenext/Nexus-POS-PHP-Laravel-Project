@@ -53,9 +53,6 @@
  <link href="{{asset('back-end/assets/css/finance-popup-modal.css')}}" rel="stylesheet" />
 
 
-    <!-- Styles end -->
-
-
     <!-- Box Icons  -->
     <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
 
